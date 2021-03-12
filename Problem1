@@ -1,0 +1,8 @@
+"""Write a program that counts up the number of vowels contained in the string s. Valid vowels are: 'a', 'e', 'i', 'o', and 'u'."""
+
+num = 0
+vowels = "aeiou"
+for i in s:
+    if i in vowels:
+        num +=1
+print("Number of vowels: " + str(num))
